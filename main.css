@@ -2,17 +2,24 @@
   box-sizing: border-box;
 }
 
+html {
+  background: url(https://www.publicdomainpictures.net/pictures/260000/velka/argyle-pattern-background-blue.jpg) repeat;
+}
+
 body {
-  background-color: aliceblue;
-  width: 1000px;
+  background-color: #d9e3d9;
+  width: 1100px;
   margin: auto;
   padding: 20px;
+  border: 5px solid #4050af;
+  border-radius: 10px;
 }
 
 #name {
   margin: auto;
   width: 50%;
   text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .category {
@@ -25,6 +32,11 @@ body {
   text-align: right;
   padding-right: 20px;
   margin-bottom: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.cat-header:first-of-type {
+  margin-top: 2px;
 }
 
 .cat-content {
@@ -34,17 +46,18 @@ body {
 }
 
 .cat-content h3 {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .entry-header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  color: #4050af;
 }
 
 .job-title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .location {
@@ -56,12 +69,50 @@ body {
   content: " - ";
 }
 
+article {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 ul {
   margin: 0;
   padding-left: 20px;
 }
 
+#education {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px dotted black;
+}
+
 #education ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+#certification {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 10px groove darkcyan;
+}
+
+#actor {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 5px dashed darkblue;
+} 
+
+#trivia {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 3px solid red;
+  font-size: 0.9rem;
+}
+
+#lyft {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 20px outset rebeccapurple;
+}
+
+#mechanic {
+  font-family: 'Courier New', Courier, monospace;
+  border: 7px ridge maroon;
+  font-size: 0.8rem;
 }
